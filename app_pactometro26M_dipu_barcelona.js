@@ -11,7 +11,7 @@ var Main = module(function() {
 	function init() {
 
 		loading(true)
-		$.get('https://rawcdn.githack.com/cpLV/LV/2d172d9c10c92d1e44be1dfffc804110da975ef0/data_pactometro26M_dipu_barcelona.json', function(res) {
+		$.get('https://rawcdn.githack.com/cpLV/LV/816606ca5ad639ed59715a326e48ef5dab1654e6/data_pactometro26M_dipu_barcelona.json', function(res) {
 			loading(false);
 
 			_.each(res, function(item, index) {
